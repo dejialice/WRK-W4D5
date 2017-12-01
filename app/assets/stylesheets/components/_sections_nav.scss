@@ -1,0 +1,27 @@
+// ul {
+//   align-items: center;
+// }
+
+.sections-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sections-nav ul li {
+  // display: inline-block;
+  margin: 7px;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+.sections-nav ul li:hover {
+  background-color: $light-gray;
+}
+
+#all:hover {
+  background-color: white;
+  text-decoration: underline;
+}
+
+
